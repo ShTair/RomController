@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomController", "RomController\RomController.csproj", "{3F8DB507-42E6-4F66-8211-B88D4D07A040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShComp", "ShComp\ShComp.csproj", "{C2CCF9C4-F928-4296-9E61-C18F9E92374D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F8DB507-42E6-4F66-8211-B88D4D07A040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8DB507-42E6-4F66-8211-B88D4D07A040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8DB507-42E6-4F66-8211-B88D4D07A040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8DB507-42E6-4F66-8211-B88D4D07A040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CCF9C4-F928-4296-9E61-C18F9E92374D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CCF9C4-F928-4296-9E61-C18F9E92374D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CCF9C4-F928-4296-9E61-C18F9E92374D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CCF9C4-F928-4296-9E61-C18F9E92374D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {828ED113-6A64-4289-AB0B-B0B505AE627E}
+	EndGlobalSection
+EndGlobal
