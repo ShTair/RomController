@@ -31,8 +31,15 @@ namespace RomController
 
         public static async Task<RomWindow> FromPointAsync(Point point)
         {
-            var rect = await GetWindowRectAsync(point, new CancellationTokenSource(2000).Token);
-            return new RomWindow(rect);
+            try
+            {
+                var rect = await GetWindowRectAsync(point, new CancellationTokenSource(500).Token);
+                return new RomWindow(rect);
+            }
+            catch (TaskCanceledException)
+            {
+                return null;
+            }
         }
 
         private static async Task<Rectangle> GetWindowRectAsync(Point point, CancellationToken cancellationToken)
