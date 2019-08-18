@@ -16,11 +16,29 @@ namespace RomController
             Rectangle = rectangle;
         }
 
+        public Point ItemCountBox => GetGamePoint(0.38, 0.73);
+
+        public Point ItemUseButton => GetGamePoint(0.33, 0.83);
+
         public Point SellCountBox => GetGamePoint(0.385, 0.48);
 
         public Point TextOkButton => GetGamePoint(0.925, 0.9);
 
         public Point SellButton => GetGamePoint(0.415, 0.83);
+
+
+        public Point BulletinBoard1 => GetGamePoint(0.22, 0.86);
+
+        public Point BulletinBoard2 => GetGamePoint(0.53, 0.86);
+
+        public Point BulletinBoard3 => GetGamePoint(0.85, 0.86);
+
+
+        public Point BulletinBoardR => GetGamePoint(0.92, 0.78);
+
+        public Point BulletinBoardL => GetGamePoint(0.06, 0.78);
+
+
 
         private Point GetGamePoint(double px, double py)
         {

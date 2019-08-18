@@ -21,6 +21,18 @@ namespace ShComp
             Click();
         }
 
+        public static void Down(int x, int y)
+        {
+            Move(x, y);
+            mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
+        }
+
+        public static void Up(int x, int y)
+        {
+            Move(x, y);
+            mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
+        }
+
         [DllImport("user32.dll")]
         [return: MarshalAs(UnmanagedType.Bool)]
         private static extern bool SetCursorPos(int x, int y);
